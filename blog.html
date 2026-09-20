@@ -295,17 +295,6 @@
 
 <script src="./js/script.js?v=20260920-3"></script>
 
-<!-- Перевірка узгодженого комплекту: не надсилає даних. -->
-<script>
-window.addEventListener('load', function () {
-  if (getComputedStyle(document.documentElement).getPropertyValue('--site-build').trim() === '20260920-3') return;
-  var notice = document.createElement('div');
-  notice.setAttribute('role', 'alert');
-  notice.style.cssText = 'position:fixed;top:0;left:0;right:0;z-index:2147483647;padding:18px;background:#fff4d8;color:#302a20;border-bottom:2px solid #b66b32;font:16px/1.5 Arial,sans-serif';
-  notice.textContent = 'Не завантажено актуальні стилі. Розпакуйте весь комплект у нову папку та відкрийте index.html саме з неї. Потрібний файл: css/style.css, версія 20260920-3.';
-  document.body.prepend(notice);
-});
-</script>
 
 </body>
 </html>
