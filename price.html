@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang="uk">
 <head>
+  <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NBZSD956');</script>
+<!-- End Google Tag Manager -->
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta http-equiv="x-ua-compatible" content="ie=edge"/>
@@ -120,6 +127,10 @@
        
     
     <body class="price-page">
+      <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NBZSD956"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
        <nav class="navbar navbar-expand-lg" id="mainNavbar">
   <div class="container">
 
@@ -335,6 +346,17 @@
 
 <script src="./js/script.js?v=20260920-3"></script>
 
+<!-- Перевірка узгодженого комплекту: не надсилає даних. -->
+<script>
+window.addEventListener('load', function () {
+  if (getComputedStyle(document.documentElement).getPropertyValue('--site-build').trim() === '20260920-3') return;
+  var notice = document.createElement('div');
+  notice.setAttribute('role', 'alert');
+  notice.style.cssText = 'position:fixed;top:0;left:0;right:0;z-index:2147483647;padding:18px;background:#fff4d8;color:#302a20;border-bottom:2px solid #b66b32;font:16px/1.5 Arial,sans-serif';
+  notice.textContent = 'Не завантажено актуальні стилі. Розпакуйте весь комплект у нову папку та відкрийте index.html саме з неї. Потрібний файл: css/style.css, версія 20260920-3.';
+  document.body.prepend(notice);
+});
+</script>
 
 </body>
 </html>
